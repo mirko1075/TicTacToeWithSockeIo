@@ -9,20 +9,25 @@
 </head>
 <body>
     <div class="text">Tic tac toe game on line</div>
+    <br>
+    <div id="status" class="text">Connecting...</div>
     <div class="board">
-      <button id="10"></button>
-      <button id="11"></button>
-      <button id="12"></button>
-      <button id="20"></button>
-      <button id="21"></button>
-      <button id="22"></button>
-      <button id="30"></button>
-      <button id="31"></button>
-      <button id="32"></button>
+      <button id="a0"></button>
+      <button id="a1"></button>
+      <button id="a2"></button>
+      <button id="b0"></button>
+      <button id="b1"></button>
+      <button id="b2"></button>
+      <button id="c0"></button>
+      <button id="c1"></button>
+      <button id="c2"></button>
       <div id="messages" class="text">Waiting for opponent to join...</div>
       </div>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.1/socket.io.js"></script>
-    <script  src="https://code.jquery.com/jquery-1.11.1.js"></script>
+      <script src="https://cdn.socket.io/4.2.0/socket.io.min.js" integrity="sha384-PiBR5S00EtOj2Lto9Uu81cmoyZqR57XcOna1oAuVuIEjzj0wpqDVfD0JA9eXlRsj" crossorigin="anonymous"></script>
+      <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"></script>
     <script src="./script.js" defer>
     </script>
   </body>
