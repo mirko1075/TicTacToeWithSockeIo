@@ -6,3 +6,7 @@ let http = require('http').createServer(app);
 let io = require('socket.io')(http)
 
 http.listen(port, () => console.log("Server is listening on port " + port))
+
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/index.html')
+})
