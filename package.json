@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/mirko1075/TicTacToeWithSockeIo#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.19.2",
     "nodemon": "^2.0.17",
     "socket.io": "^4.2.0"
   }
